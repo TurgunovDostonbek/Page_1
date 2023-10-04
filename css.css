@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Alegreya Sans ;
+    src: url(./fonts/AlegreyaSans-Bold.ttf);
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1051px;
+    border: 1px solid #000;
+    background: #FDE8C6;
+    margin: auto;
+}
+
+.wrapper{
+    
+    border-radius: 17px;
+    border: 6px solid rgba(102, 33, 19, 0.32);
+    background: rgba(255, 255, 254, 0.53);
+    width: 1260px;
+    height: 819px;
+    position: relative;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 93px 33px 57px;
+}
+.nav_l{
+    display: flex;
+}
+.nav_l h1{
+    color: rgba(95, 22, 6, 0.77);
+    font-family: Alegreya Sans;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav_r{
+    display: flex;
+    align-items: center;
+    gap: 47px;
+}
+
+.nav_r >button{
+    border-radius: 13px;
+    border: 3px solid #662113;
+    background: #F5F2EC;
+    width: 158px;
+    height: 63px;
+    color: #662113;
+    font-family: Alegreya Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.5s;
+}
+.nav_r >button:hover{
+    border: none;
+    background: rgba(95, 22, 6, 0.56);
+}
+ /* section */
+
+.section{
+    display: flex;
+    padding: 50px 49px 0px 57px;
+}
+.section_l{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section_l h1{
+    color: rgba(95, 22, 6, 0.77);
+    font-family: Alegreya Sans;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section_l > h1 >img{
+    margin-bottom: -25px;
+}
+.section_l p{
+    padding-top: 5px;
+    width: 419px;
+    height: 135px;
+    flex-shrink: 0;
+    color: rgba(102, 33, 19, 0.84);
+    font-family: Alegreya Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.section_l button{
+    margin-left: 90px;
+    color: #FFF;
+    font-family: Alegreya Sans;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 191px;
+    height: 80px;
+    flex-shrink: 0;
+    transition: 0.5s;
+    border: none;
+    border-radius: 22px;
+    background: rgba(95, 22, 6, 0.77);
+}
+
+.section_r{
+    margin-left: 100px;
+    width: 560.156px;
+    height: 505.266px;
+    flex-shrink: 0;
+    background-image: url(./img/bacro.png);
+}
+#bir{
+    position: absolute;
+    bottom: 80px;
+    left: 570px ;
+}
+.imge img{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.footer{
+    display: flex;
+    gap: 12px;
+    padding: 40px 60px 40px 130px;
+}
+#birr{
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    top: 10px;
+}
+#ikki{
+    position: absolute;
+    right: 518px;
+    z-index: 4;
+    top: 140px;
+}
+#uch{
+    position: absolute;
+    left: 50px;
+    bottom: 284px;
+}
+#tort{
+    position: absolute;
+    left: 419px;
+    bottom: 62px;
+}
+#besh{
+    position: absolute;
+    left: 6px;
+    bottom: 15px;
+}
+#olti{
+    position: absolute;
+    right: 55px;
+    bottom: 11px;
+}
